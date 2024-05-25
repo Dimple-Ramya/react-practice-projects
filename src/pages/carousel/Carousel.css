@@ -1,0 +1,39 @@
+.outer-container-Car {
+    text-align: center;
+    display: flex;
+}
+
+.image {
+    height: 300px;
+    width: 400px;
+}
+
+.btns {
+    height: 30px;
+    width: 80px;
+    margin: 30px;
+}
+
+show {
+    display: block;
+}
+
+hide {
+    display: none;
+}
+
+.indicators-box {
+    display: flex;
+    justify-content: center;
+}
+
+.indicator {
+    background-color: whitesmoke;
+    height: 1em;
+    width: 1em;
+    border-radius: 60px;
+    margin: 3px;
+}
+.indicator-active{
+    background-color: black;
+}

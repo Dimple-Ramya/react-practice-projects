@@ -1,0 +1,105 @@
+.outer-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-panel {
+    width: 25vw;
+    height: 100vh;
+    /* background-color: ; */
+    background-image: url("https://images-platform.99static.com//B7fuStF-qI9Rto4-zrl81yaDD9Q=/188x157:1820x1789/fit-in/500x500/99designs-contests-attachments/90/90259/attachment_90259157");
+    background-size: 100%;
+}
+
+.form {
+    text-align: center;
+    width: 75vw;
+    height: 100vh;
+}
+
+.open-page-container {
+    border: 0.1px solid orange;
+    border-radius: 20px;
+    height: 150px;
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 7%;
+}
+
+.stage-1-container {
+    margin-top: 7%;
+    height: 300px;
+    width: 400px;
+}
+
+.input-box {
+    width: 300px;
+    height: 30px;
+    border: 0.1px solid rgb(217, 215, 215);
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.next-btn {
+    background-color: orange;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 140px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.submitted {
+    color: orange;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.state-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 7%;
+}
+
+.state-name-container {
+    height: 60px;
+    width: 70px;
+    text-align: center;
+}
+
+.state-name {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    width: 100%;
+}
+
+.round-state {
+    border: 0.1px solid green;
+    border-radius: 50px;
+    height: 30px;
+    width: 40px;
+    margin-left: 13px;
+    background-color: white;
+    color: green;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.connecting-line {
+    height: 2px;
+    width: 200px;
+    border: 0.1 solid green;
+    background-color: rgb(225, 224, 224);
+    /* fill: 20% red; */
+    margin-top: 20px;
+}
+
+.completed-line {
+    background-color: green;
+    transition: width 2s;
+}

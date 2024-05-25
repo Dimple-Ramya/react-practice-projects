@@ -1,0 +1,25 @@
+.dropdown {
+    height: 20px;
+    width: 100px;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.items {
+    width: 120%;
+    list-style: none;
+    margin: 2px;
+    background-color: rgb(226, 246, 246);
+}
+
+.sub-dropdown {
+    /* height: 20px; */
+    width: 100px;
+    margin-top: 0;
+    margin-left: 14%;
+}
+.item-bg{
+    background-color: rgb(225, 227, 228);
+}

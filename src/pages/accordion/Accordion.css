@@ -1,0 +1,19 @@
+.accord-outer-box{
+    background-color: aqua;
+    height: 600px;
+    width: 500px;
+    margin-left: 35%;
+}
+.acc-header{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+.btn{
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
